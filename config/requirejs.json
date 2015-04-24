@@ -1,0 +1,17 @@
+{
+    "appDir": "public",
+    "dir": "public_build",
+    "baseUrl": "js",
+    "paths": {
+        "text": "../bower_components/requirejs-text/text",
+        "bower_components": "../bower_components"
+    },
+    "shim": {
+        "bower_components/angular/angular": {
+            "exports": "angular"
+        }
+    },
+    "modules": [
+        {"name": "page1", "include": ["page1/main"]}
+    ]
+}
