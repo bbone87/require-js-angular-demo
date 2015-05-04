@@ -1,7 +1,7 @@
 'use strict';
 
 define(function(require) {
-	var angular = require('bower_components/angular/angular');
+	var angular = require('angular');
 	require('shared/directive1/directive1.directive');
 
 	angular
@@ -18,5 +18,7 @@ define(function(require) {
 
 	function Page1Ctrl() {
 		var vm = this;
+
+		vm.testVar = 'foo';
 	}
 });

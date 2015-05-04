@@ -1,7 +1,7 @@
 'use strict';
 
 define(function(require) {
-	var angular = require('bower_components/angular/angular');
+	var angular = require('angular');
 	var template = require('text!./directive2.template.html');
 
 	angular

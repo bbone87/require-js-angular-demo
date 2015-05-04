@@ -4,10 +4,11 @@
     "baseUrl": "js",
     "paths": {
         "text": "../bower_components/requirejs-text/text",
-        "bower_components": "../bower_components"
+        "bower_components": "../bower_components",
+        "angular": "../bower_components/angular/angular"
     },
     "shim": {
-        "bower_components/angular/angular": {
+        "angular": {
             "exports": "angular"
         }
     },
