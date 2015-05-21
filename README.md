@@ -13,5 +13,4 @@ This project serves as an example of how to integrate [RequireJS](http://require
 ## Benefits
 
 * Developers no longer need to worry about adding/removing script tags to the page for each individual javascript library/module.
-* No need for external build tools for applications. Instead, optimization is run once on app startup in production environments.
 * With the use of the [RequireJS text plugin](https://github.com/requirejs/text), angular template files can be defined as dependencies and loaded asyncronously or compiled (depending on environment) the same way that javascript dependencies are.
